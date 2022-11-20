@@ -13,9 +13,6 @@ def draw():
     # 绘制背景
     screen.fill((255,255,255))  # 白色背景
     for r in range(250, 0, -20):
-        R = random.randint(0, 255)
-        G = random.randint(0, 255)
-        B = random.randint(0, 255)
         screen.draw.filled_circle((400, 300), r, (R, G, B))
 
 
